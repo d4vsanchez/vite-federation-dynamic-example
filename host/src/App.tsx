@@ -4,10 +4,6 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import {Button} from 'remoteApp/Button'
 
-if (window) {
-  window.remoteUrl = "http://localhost:8080/remoteEntry.js"
-}
-
 function App() {
   const [count, setCount] = useState(0)
 
